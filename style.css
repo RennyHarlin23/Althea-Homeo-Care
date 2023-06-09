@@ -5,8 +5,15 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
+}
+html{
     scroll-snap-type: y proximity;
 }
+section{
+    height: 100vh;
+    scroll-snap-align: start;
+}
+
 .top-container{
     padding: 0;
     margin: 0;
